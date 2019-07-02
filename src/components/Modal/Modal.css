@@ -1,0 +1,147 @@
+
+.modal
+{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(1, 8, 18, 0.7);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 42px;
+  padding-right: 42px;
+  z-index: 99999;
+  box-sizing: border-box;
+  animation: .2s backdrop;
+  transition: opacity .15s;
+}
+.modal_close
+{
+  opacity: 0;
+}
+.modal__base
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.modal__base:hover .modal__close
+{
+  opacity: .8
+}
+
+.modal__wrapper
+{
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.modal__window
+{
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: transform ease .15s;
+  box-shadow: 0 0 0 1px rgba(13, 35, 67, 0.06), 0 15px 25px -4px rgba(13, 35, 67, 0.4);
+  animation: .2s ease modalwindow;
+  transform-origin: 50% 50vh;
+}
+
+.modal_close .modal__window
+{
+  transform: scale(1.05);
+}
+
+.modal__close
+{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  opacity: .4;
+  cursor: pointer;
+  transition: opacity .1s;
+}
+
+.modal__close:before
+{
+  content: '';
+  background: #fff;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  right: 7px;
+  transform: rotate(45deg);
+
+}
+.modal__close:after
+{
+  content: '';
+  background: #fff;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 7px;
+  transform: rotate(45deg);
+
+}
+.modal_size_scroll
+{
+  overflow-y: scroll;
+  align-items: start;
+}
+
+.modal_size_fill-vertical .modal__window
+{
+  flex-grow: 1;
+}
+
+.modal_size_fill
+{
+  padding-left: 16px;
+}
+.modal_size_fill .modal__wrapper
+{
+  flex-grow: 1;
+}
+
+.modal_size_fill .modal__window
+{
+  flex-grow: 1;
+}
+
+@keyframes modalwindow {
+  from
+  {
+    transform: scale(.95);
+  }
+  to
+  {
+    transform: scale(1);
+  }
+}
+
+@keyframes backdrop {
+  from
+  {
+    opacity: 0
+  }
+  to
+  {
+    opacity: 1
+  }
+}
