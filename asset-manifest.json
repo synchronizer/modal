@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/roma-d/modal/static/css/main.9984f07b.chunk.css",
+    "main.js": "/roma-d/modal/static/js/main.80466616.chunk.js",
+    "main.js.map": "/roma-d/modal/static/js/main.80466616.chunk.js.map",
+    "runtime~main.js": "/roma-d/modal/static/js/runtime~main.2bb1fa6c.js",
+    "runtime~main.js.map": "/roma-d/modal/static/js/runtime~main.2bb1fa6c.js.map",
+    "static/js/2.020659fe.chunk.js": "/roma-d/modal/static/js/2.020659fe.chunk.js",
+    "static/js/2.020659fe.chunk.js.map": "/roma-d/modal/static/js/2.020659fe.chunk.js.map",
+    "index.html": "/roma-d/modal/index.html",
+    "precache-manifest.70897f2a5d2a6155871ec97a30378817.js": "/roma-d/modal/precache-manifest.70897f2a5d2a6155871ec97a30378817.js",
+    "service-worker.js": "/roma-d/modal/service-worker.js",
+    "static/css/main.9984f07b.chunk.css.map": "/roma-d/modal/static/css/main.9984f07b.chunk.css.map",
+    "static/media/Screen Shot 2019-07-02 at 9.07.01 PM.png": "/roma-d/modal/static/media/Screen Shot 2019-07-02 at 9.07.01 PM.1d3fa4cd.png",
+    "static/media/Yandeks.Karty__vybiraite_gde_poest_kuda_shodit_chem_zanyatsya_2019-06-28_15-22-21.png": "/roma-d/modal/static/media/Yandeks.Karty__vybiraite_gde_poest_kuda_shodit_chem_zanyatsya_2019-06-28_15-22-21.c71b252b.png",
+    "static/media/beru.ru_product_yandex-umnaia-rozetka-yandexa-chernyi_447723001.png": "/roma-d/modal/static/media/beru.ru_product_yandex-umnaia-rozetka-yandexa-chernyi_447723001.c0d90b8f.png",
+    "static/media/ModalTouch.css": "/roma-d/modal/static/media/close.97255530.svg",
+    "static/media/custom-scroll.css": "/roma-d/modal/static/media/light-scrollbar-icon.ee14221b.svg",
+    "static/media/default.svg": "/roma-d/modal/static/media/default.0d5523a4.svg",
+    "static/media/fill-vertical.svg": "/roma-d/modal/static/media/fill-vertical.9c608ec6.svg",
+    "static/media/fill.svg": "/roma-d/modal/static/media/fill.2bce9b56.svg",
+    "static/media/scroll.svg": "/roma-d/modal/static/media/scroll.6c604816.svg"
+  }
+}
