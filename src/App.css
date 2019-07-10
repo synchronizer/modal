@@ -1,3 +1,27 @@
+div, img
+{
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.sbs2-show
+{
+  line-height: 44px;
+  padding: 0 16px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  background-color: #e6e6e6;
+  outline: none;
+}
+.sbs2-show:hover
+{
+  background-color: #ccc;
+}
+.sbs2-show:active
+{
+  background-color: #bbb;
+}
 .App
 {
   display: flex;
@@ -5,6 +29,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  /* background-image: url('https://jing.yandex-team.ru/files/roma-d/samyi_bystryi_chelovek_v_mire__Yandeks_nashlos_19mlnrezultatov_2019-07-08_16-52-06.png'); */
+  background-repeat: no-repeat;
 }
 
 .control
